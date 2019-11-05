@@ -43,8 +43,8 @@ export class ApiService {
   }
    
   updateTodo (id, todo): Observable<any> {
-    const apiUrl= "http://localhost:3000/posts/";
-    const url = `${apiUrl}/${1}`;
+    const apiUrl= "http://localhost:3000/posts";
+    const url = `${apiUrl}/${id}`;
     return this.http.put(url, todo, httpOptions).pipe(
       tap(_ => console.log(`updated todo id=${id}`)),
       catchError(this.handleError<any>('updateTodo'))

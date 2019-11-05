@@ -43,8 +43,9 @@ export class TodoEditComponent implements OnInit {
   getDetail(id) {
    
     this.api.getTodo(id)
+    
       .subscribe(data => {
-            
+        this.id = id;  
         this.todoForm.setValue({
           title: data[0].title
         });
