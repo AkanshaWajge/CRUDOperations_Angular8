@@ -1,0 +1,35 @@
+
+<div class="container mt-5">
+    <h2>Users
+      <a class="float-right" [routerLink]="['/todo/add']">
+        <button type="button" class="btn btn-primary">Add</button>
+      </a>
+    </h2>
+    <table class="table table-bordered mt-5">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>User Name</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr *ngFor=" let i = index; let item of data | paginate: { id: 'listing_pagination',
+          itemsPerPage: 5,
+          currentPage: page,
+          totalItems: totalRec } ">
+              <td width="20">{{item.id}}</td>
+              <td>{{item.title}}</td>
+              <td width="250">                
+                  <!-- <button type="button" class="btn btn-danger mr-1" (click)="deleteTodo(item.id, i)">Delete</button> -->
+                  <a [routerLink]="['/todo/edit/', item.id]">
+                    <button type="button" class="btn btn-primary">Edit</button>
+                  </a>
+              </td>
+            </tr>
+      </tbody>
+    </table>
+    <div>
+		<pagination-controls  id="listing_pagination" maxSize="5" directionLinks="true" (pageChange)="page = $event"></pagination-controls>
+	</div>
+  </div>
