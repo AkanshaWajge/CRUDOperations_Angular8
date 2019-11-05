@@ -1,52 +1,92 @@
 {
   "posts": [
     {
-      "title": "zxsdvsdvsaaefrehtyrhjtyj",
-      "id": 1
+      "firstname": "Akansha",
+      "lastname": "sdfghj",
+      "email":"a@hmail.com",
+      "gender":"female",
+      "id": 1,
+      "isActive": true
     },
     {
-      "title": "sxsac",
-      "id": 2
+      "firstname": "HSJK",
+      "lastname": "sdfghj",
+      "email":"a@hmail.com",
+      "gender":"female",
+      "id": 2,
+      "isActive": true
     },
     {
-      "title": "wwqerr",
-      "id": 3
+      "firstname": "wwqerr",
+      "lastname": "sdfghj",
+      "email":"a@hmail.com",
+      "gender":"female",
+      "id": 3,
+      "isActive": true
     },
     {
-      "title": "wwqerr",
-      "id": 4
+      "firstname": "wwqerr",
+      "lastname": "sdfghj",
+      "email":"a@hmail.com",
+      "gender":"female",
+      "id": 4,
+      "isActive": true
     },
     {
-      "title": "wdwef",
-      "id": 5
+      "firstname": "wdwef",
+      "lastname": "sdfghj",
+      "email":"a@hmail.com",
+      "gender":"female",
+      "id": 5,
+      "isActive": true
     },
     {
-      "title": "ear",
-      "id": 6
+      "firstname": "ear",
+      "lastname": "sdfghj",
+      "email":"a@hmail.com",
+      "gender":"female",
+      "id": 6,
+      "isActive": false
     },
     {
-      "title": "sfgergerg",
-      "id": 7
+      "firstname": "sfgergerg",
+      "lastname": "sdfghj",
+      "email":"a@hmail.com",
+      "gender":"female",
+      "id": 7,
+      "isActive": false
     },
     {
-      "title": "rrgwrew",
-      "id": 8
+      "firstname": "rrgwrew",
+      "lastname": "sdfghj",
+      "email":"a@hmail.com",
+      "gender":"female",
+      "id": 8,
+      "isActive": false
     },
     {
-      "title": "gewew",
-      "id": 9
+      "firstname": "gewew",
+      "lastname": "sdfghj",
+      "email":"a@hmail.com",
+      "gender":"female",
+      "id": 9,
+      "isActive": false
     },
     {
-      "title": "wefwe",
-      "id": 10
+      "firstname": "wefwe",
+      "lastname": "sdfghj",
+      "email":"a@hmail.com",
+      "gender":"female",
+      "id": 10,
+      "isActive": false
     },
     {
-      "title": "zxsdvsdv",
-      "id": 11
+      "firstname": "zxsdvsdv",
+      "lastname": "sdfghj",
+      "email":"a@hmail.com",
+      "gender":"female",
+      "id": 11,
+      "isActive": false
     }
-  ],
-  "comments": [],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
