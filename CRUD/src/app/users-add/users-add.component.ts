@@ -5,8 +5,8 @@ import {Router} from "@angular/router";
  
 @Component({
   selector: 'app-todo-add',
-  templateUrl: './todo-add.component.html',
-  styleUrls: ['./todo-add.component.css']
+  templateUrl: './users-add.component.html',
+  styleUrls: ['./users-add.component.css']
 })
  
 export class UsersAddComponent implements OnInit {

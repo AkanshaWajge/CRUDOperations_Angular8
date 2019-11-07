@@ -8,8 +8,8 @@ import { Key } from 'protractor';
  
 @Component({
   selector: 'app-todo-edit',
-  templateUrl: './todo-edit.component.html',
-  styleUrls: ['./todo-edit.component.css']
+  templateUrl: './users-edit.component.html',
+  styleUrls: ['./users-edit.component.css']
 })
 export class UsersEditComponent implements OnInit {
  

@@ -10,17 +10,17 @@ const routes: Routes = [
   {
     path: '',
     component: UsersComponent,
-    data: { title: 'List of todos' }
+    data: { title: 'List of Users' }
   },
   {
     path: 'users/add',
     component: UsersAddComponent,
-    data: { title: 'Add todo' }
+    data: { title: 'Add User' }
   },
   {
     path: 'users/edit/:id',
     component: UsersEditComponent,
-    data: { title: 'Edit todo' }
+    data: { title: 'Edit User' }
   },
 ];
 
