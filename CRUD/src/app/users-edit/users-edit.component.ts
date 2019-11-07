@@ -11,7 +11,7 @@ import { Key } from 'protractor';
   templateUrl: './todo-edit.component.html',
   styleUrls: ['./todo-edit.component.css']
 })
-export class TodoEditComponent implements OnInit {
+export class UsersEditComponent implements OnInit {
  
   todoForm: FormGroup;
   id:number= null;

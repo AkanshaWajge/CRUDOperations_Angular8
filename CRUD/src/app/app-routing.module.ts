@@ -1,25 +1,25 @@
 
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { TodoComponent } from './todo/todo.component';
-import { TodoAddComponent } from './todo-add/todo-add.component';
-import { TodoEditComponent } from './todo-edit/todo-edit.component';
+import { UsersComponent } from './users/users.component';
+import { UsersAddComponent } from './users-add/users-add.component';
+import { UsersEditComponent } from './users-edit/users-edit.component';
 
 
 const routes: Routes = [
   {
     path: '',
-    component: TodoComponent,
+    component: UsersComponent,
     data: { title: 'List of todos' }
   },
   {
-    path: 'todo/add',
-    component: TodoAddComponent,
+    path: 'users/add',
+    component: UsersAddComponent,
     data: { title: 'Add todo' }
   },
   {
-    path: 'todo/edit/:id',
-    component: TodoEditComponent,
+    path: 'users/edit/:id',
+    component: UsersEditComponent,
     data: { title: 'Edit todo' }
   },
 ];

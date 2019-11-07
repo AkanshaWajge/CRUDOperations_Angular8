@@ -9,7 +9,7 @@ import {Router} from "@angular/router";
   styleUrls: ['./todo-add.component.css']
 })
  
-export class TodoAddComponent implements OnInit {
+export class UsersAddComponent implements OnInit {
    
   todoForm: FormGroup;
   constructor(private formBuilder: FormBuilder, private router: Router, private api: ApiService) { }
